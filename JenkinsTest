@@ -9,8 +9,8 @@ pipeline {
         }
         stage('deploy'){
             steps {
-                echo '$Name'
-                echo '$Age'
+                echo '%Name'
+                echo '%Age'
             }
         }
     }

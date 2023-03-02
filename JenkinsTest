@@ -9,8 +9,8 @@ pipeline {
         }
         stage('deploy'){
             steps {
-                echo '%Name%'
-                echo '%Age%'
+                bat 'echo %Name%'
+                bat 'echo %Age%'
             }
         }
     }
